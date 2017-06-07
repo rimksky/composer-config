@@ -18,7 +18,7 @@ but not using global variable.
     }
 
 ## Installation
-    % php composer require rimksky/config:dev-master
+    % php composer require rimksky/config
 
 ## How to use
     <?php
