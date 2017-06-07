@@ -1,6 +1,6 @@
 <?php
 
-  namespace rimksky;
+  namespace rimksky\Config;
 
   /**
    * weblib のコンフィグを格納するクラス
