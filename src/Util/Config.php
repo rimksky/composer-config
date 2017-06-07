@@ -1,30 +1,18 @@
 <?php
 
-  namespace rimksky\Config;
+  namespace Rimksky\Util;
 
   /**
-   * weblib のコンフィグを格納するクラス
-   * singleton
+   * Config
    */
   class Config {
-    /**
-     * 自身のインスタンス
-     */
     protected static $instance;
-
-    /**
-     * コンフィグパラメータ
-     */
     protected $config = [];
 
-    /**
-     * コンストラクタ
-     * singleton
-     */
     private function __construct(){
     }
 
-    public static function getInstance(){
+    public static function ins(){
       if( !isset(self::$instance) ){
         self::$instance = new Config();
       }
