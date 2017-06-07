@@ -12,11 +12,15 @@
     private function __construct(){
     }
 
-    public static function ins(){
+    public static function getInstance(){
       if( !isset(self::$instance) ){
         self::$instance = new Config();
       }
       return self::$instance;
+    }
+
+    public static function ins(){
+      return self::getInstance();
     }
 
     public function __set( $name, $value ){
