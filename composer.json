@@ -12,7 +12,7 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "rimksky\\Config\\": "src/Config"
+            "Rimksky\\Config\\": "src/Config"
         }
     }
 }
