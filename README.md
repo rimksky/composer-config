@@ -1,7 +1,7 @@
-# composer-config
+# php-config-class
 
 ## Overview
-"composer-config" is simple libary for php.
+"php-config-class" is simple libary for php.
 This library is assumed to be replacing "define" function with static class value.
 if using this, Config parameters in your application use like global variable,
 but not using global variable.
@@ -27,4 +27,4 @@ but not using global variable.
         echo Config::i()->your_param2."\n";  // getting value
 
 ## License
-composer-config is licensed under The MIT License (MIT).
+"php-config-class" is licensed under The MIT License (MIT).
