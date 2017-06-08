@@ -19,7 +19,7 @@
       return self::$instance;
     }
 
-    public static function ins(){
+    public static function i(){
       return self::getInstance();
     }
 

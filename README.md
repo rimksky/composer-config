@@ -23,8 +23,8 @@ but not using global variable.
         echo Config::getInstance()->your_param."\n";  // getting value
 
         // alternative method
-        Config::ins()->your_param2 = "test";   // setting value
-        echo Config::ins()->your_param2."\n";  // getting value
+        Config::i()->your_param2 = "test";   // setting value
+        echo Config::i()->your_param2."\n";  // getting value
 
 ## License
 
