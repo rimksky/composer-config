@@ -27,5 +27,4 @@ but not using global variable.
         echo Config::i()->your_param2."\n";  // getting value
 
 ## License
-
 composer-config is licensed under The MIT License (MIT).
