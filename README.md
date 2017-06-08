@@ -7,15 +7,8 @@ if using this, Config parameters in your application use like global variable,
 but not using global variable.
 
 ## System Requirements
-*PHP 5.4.0 or greater  
-*Composer
-
-## Setting composer.json
-    {
-      "repositories": [
-        { "type": "vcs", "url": "https://github.com/rimksky/composer-config.git" }
-      ]
-    }
+* PHP 5.4.0 or greater  
+* Composer
 
 ## Installation
     % php composer require rimksky/config
